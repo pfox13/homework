@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --text-color: #252b42;
+    --second-text-color: #737373;
+    --primary-color: #ffa62b;
+    --light-text-color: #ffffff;
+    --secondary-color-1: #00a0c1;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.wrap {
+    max-width: 1050px;
+    min-width: 414px;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header {
+    background: #f3f3f3;
+    padding-bottom: 120px;
+}
+
+.header__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__block h3 {
+    color: var(--text-color, #252b42);
+    font-style: Bold;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+
+    margin: 0;
+}
+
+.header__block ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.header__block li {
+    margin-left: 21px;
+}
+
+.header__block a {
+    color: var(--second-text-color, #737373);
+    font-style: SemiBold;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+.header__block a:hover {
+    text-decoration: underline;
+}
+
+.header h1 {
+    color: var(--text-color, #252b42);
+    font-style: ExtraBold;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 120px 0 40px;
+}
+
+.header h4 {
+    color: var(--second-text-color, #737373);
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin: 0 0 40px;
+}
+
+.header__button {
+    text-align: center;
+}
+
+.header__button--btn1 {
+    border-radius: 37px;
+    background: var(--primary-color, #ffa62b);
+    color: var(--light-text-color, #ffffff);
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    padding: 10px 36px;
+    text-decoration: none;
+}
+
+.header__button--btn1:hover {
+    text-decoration: underline;
+}
+
+.header__button--btn2 {
+    box-sizing: border-box;
+    border: 1px solid var(--secondary-color-1, rgba(0, 160, 193, 1));
+    border-radius: 37px;
+    color: var(--secondary-color-1, #00a0c1);
+    font-style: Bold;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    padding: 10px 36px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header__button--btn2:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 0;
+    background: #111;
+}
+
+.traffic-light {
+    width: 120px;
+    height: 360px;
+    background: #333;
+    border-radius: 20px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #222;
+    position: relative;
+}
+
+.red {
+    animation: redLight 11s infinite;
+}
+
+.yellow {
+    animation: yellowLight 11s infinite;
+}
+
+.green {
+    animation: greenLight 11s infinite;
+}
+
+@keyframes redLight {
+
+    0%,
+    54% {
+        background: #ff3333;
+       
+    }
+
+    56%,
+    100% {
+        background: #222;
+    }
+}
+
+@keyframes yellowLight {
+
+    0%,
+    45% {
+        background: #222;
+    }
+
+    46%,
+    54% {
+        background: #ffcc00;
+        
+    }
+
+    55%,
+    90% {
+        background: #222;
+    }
+
+    91%,
+    100% {
+        background: #ffcc00;
+        
+    }
+}
+
+@keyframes greenLight {
+
+    0%,
+    54% {
+        background: #222;
+    }
+
+    55%,
+    90% {
+        background: #33cc33;
+    }
+
+    91%,
+    100% {
+        background: #222;
+    }
+}

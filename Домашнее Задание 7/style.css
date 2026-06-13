@@ -1,0 +1,80 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #336699;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background: #f6f9ff;
+    font-size: 18px;
+}
+
+.header {
+    background: url(./images/backgroung_top.jpg);
+    height: 176px;
+    text-align: right;
+}
+
+.header img {
+    margin: 30px 30px 0 0;
+}
+
+.line {
+    background: url(./images/line.png);
+    height: 31px;
+}
+
+.menu {
+    width: 200px;
+    float: left;
+  
+}
+
+.menu ul {
+    list-style: none;  
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li {
+    margin-bottom: 10px;
+}
+
+.menu a {
+    color: #336699;
+    
+}
+
+.content {
+    margin-left: 220px;
+    margin-right: 20px;
+}
+
+.content h3 {
+    text-align: center;
+    color: #336699;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.map_main {
+    float: left;
+    margin: 2px 6px 0 0;
+}
+
+.footer {
+    background: url(./images/backgroung_bottom.jpg);
+    height: 164px;
+}
+
+.footer p {
+    color: white;
+    padding-top: 120px;
+    text-align: center;
+}

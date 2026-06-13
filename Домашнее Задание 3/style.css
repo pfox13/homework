@@ -1,0 +1,48 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: #ff4dff;
+}
+
+.red {
+    color: red;
+}
+
+.dec {
+    font-size: 20px;
+}
+
+.orange {
+    color: orange;
+}
+
+.green {
+    color: green;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.aqua {
+    color: aqua;
+}
+
+.blue {
+    color: blue;
+}
+
+.blueviolet {
+    color: blueviolet;
+}
+
+.black {
+    color: black;
+}

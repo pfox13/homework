@@ -1,0 +1,19 @@
+body {
+    font-family: sans-serif;
+}
+
+.green, .green a {
+    color: #008000;
+}
+
+.red, .red a {
+    color: #ff0000;
+}
+
+.orange, .orange a {
+    color: #ffa500;
+}
+
+.darkcyan, .darkcyan a {
+    color: #0070c0;
+}
