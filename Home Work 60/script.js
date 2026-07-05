@@ -46,7 +46,6 @@ class Boss extends Worker {
     getSalary(){
         return this.rate * this.days * this.workers;
     }
-
 }
 
 const worker = new Worker("Иван", "Иванов", 10, 31);
