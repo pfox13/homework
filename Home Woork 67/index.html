@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+
+        #consent-popup {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            padding: 2rem 4rem;
+            background: rgb(234, 112, 67);
+            transition: opacity 1s ease;
+        }
+
+        #consent-popup.hidden {
+            opacity: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="consent-popup" class="hidden">
+        <p>используя этот сайт вы соглашаетесь с нашими <a href="./accept.html" target="_blank">условиями использованиями</a>. Их необходиимо <a
+                href="#" id="accept">принять</a> перед использованием сайта.</p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
