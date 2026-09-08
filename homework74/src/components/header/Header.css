@@ -1,0 +1,32 @@
+header {
+    padding-top: 30px;
+    padding-bottom: 85px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around;
+    background: #141024;
+}
+
+header .header__nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+header .header__nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header .header__phone {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header a:hover  {
+    text-decoration: underline ;
+}

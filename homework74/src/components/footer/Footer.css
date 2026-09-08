@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    background: #141024;
+    padding: 50px 0 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: rgba(255, 255, 255, .7);
+}
+
+.footer__right a {
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.footer__right a:hover {
+    text-decoration: underline;
+}
+

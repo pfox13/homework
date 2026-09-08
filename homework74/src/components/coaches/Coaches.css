@@ -1,0 +1,58 @@
+.coaches {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 0;
+    align-items: center;
+}
+
+.coaches__container {
+    width: 1160px;
+}
+
+.coaches__container-title {
+    margin-bottom: 60px;
+}
+
+.coaches__container-title h2 {
+    font-size: 50px;
+}
+
+.coaches__container-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+
+.coaches__card {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.coaches__card-image {
+    margin-bottom: 20px;
+}
+
+.coaches__card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.coaches__card p {
+    font-size: 18px;
+    color: rgba(20, 16, 36, .7);
+    margin-bottom: 20px;
+}
+
+.coaches__card a {
+    font-size: 18px;
+    color: #D52027;
+    text-decoration: none;
+}
+
+.coaches__card a:hover {
+    text-decoration: underline;
+    color: #B81A20;
+}

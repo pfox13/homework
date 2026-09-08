@@ -1,0 +1,42 @@
+.course-benefits {
+    background: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.course-benefits__container {
+    max-width: 1160px;
+}
+
+.course-benefits__content-title {
+    margin-bottom: 60px;
+}
+
+.course-benefits__content-title h2 {
+    font-size: 50px;
+}
+
+.course-benefits__content-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.course-benefits__block-info {
+    width: 360px;
+    gap: 40px;
+}
+
+.course-benefits__block-info h3 {
+    font-size: 24;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.course-benefits__block-info p {
+    font-size: 18px;
+    color: rgba(20, 16, 36, .7);
+}

@@ -1,0 +1,70 @@
+.pack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.pack__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 1160px;
+}
+
+.pack__container-title h2 {
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+.pack__container-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.pack__block-card {
+    border: 1px rgba(20, 16, 36, .2) solid;
+    border-radius: 20px;
+    width: 360px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.pack__block-card h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 63px;
+}
+
+.block__card-price {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pack__block-card p {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.pack__block-card a {
+    text-decoration: none;
+    padding: 25px 78px;
+    color: #fff;
+    background:#D52027 ;
+    border-radius: 5px;
+    
+}
+
+.pack__block-card:hover {
+    background: #141024;
+    color: #fff;
+}
+
+.pack__block-card a:hover {
+    text-decoration: underline;
+    background: #B81A20;
+}
