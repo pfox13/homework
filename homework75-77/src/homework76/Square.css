@@ -1,0 +1,28 @@
+.container {
+    text-align: center;
+    color: #4c4c4c;
+    background-color: white;
+    width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+input {
+    width: 300px;
+    accent-color: #4c4c4c;
+}
+
+p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.square {
+    background-color: #4c4c4c;
+    margin: 20px auto;
+}

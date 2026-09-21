@@ -1,0 +1,32 @@
+.music {
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #4c4c4c;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.music h1 {
+    text-align: center;
+}
+
+.album {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.album img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.music li {
+    margin: 10px 0;
+}
